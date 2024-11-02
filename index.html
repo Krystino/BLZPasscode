@@ -31,7 +31,7 @@
 
 <body><noscript><strong>We're sorry but bitzh-ncov-mobile doesn't work properly without JavaScript enabled. Please
       enable it to continue.</strong></noscript>
-  <div id="app1">
+  <div id="app1" style="zoom: 0.8;">
     <div data-v-bc4e29d2="" id="bg" style="background: rgb(13, 86, 42);">
       <div data-v-bc4e29d2="" id="particles-js" color="#00BFFF" particleopacity="0.7" linescolor="#00BFFF"
         particlesnumber="100" shapetype="circle" particlesize="6" lineswidth="1" linelinked="true" lineopacity="0.4"
@@ -58,6 +58,7 @@
             </div>
           </div>
         </div>
+        <!-- 在这里修改车牌号、姓名 -->
         <div data-v-bc4e29d2="" id="tips">申请人：王熙（校友） 车牌：粤MPR897</div>
         <div data-v-bc4e29d2=""
           style="height: 1px; border-top: 1px dotted gray; margin-top: 10px; margin-bottom: 10px;"></div>
@@ -127,7 +128,8 @@
           value: parseFloat(document.getElementById('particles-js').getAttribute('particleopacity')) || 0.5
         },
         size: {
-          value: parseInt(document.getElementById('particles-js').getAttribute('particlesize')) || 3
+          value: parseInt(document.getElementById('particles-js').getAttribute('particlesize')) || 3,
+          random: true,
         },
         line_linked: {
           enable: document.getElementById('particles-js').getAttribute('linelinked') === 'true',
