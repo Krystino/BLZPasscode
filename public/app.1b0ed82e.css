@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700&display=swap');
+
 #app1 {
     font-family: Avenir,Helvetica,Arial,sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -156,7 +158,8 @@
     padding-top: 5px;
     font-size: 16px;
     margin-top: 10px;
-    font-weight: 700
+    font-weight: 700;
+    font-family: "Noto Sans SC", "FZHei-B01S", "Microsoft YaHei", "Helvetica Neue", Arial, sans-serif;
 }
 
 .allow[data-v-bc4e29d2] {
@@ -215,7 +218,7 @@
     text-align: center;
     background-color: #2c3e50;
     color: #fff;
-    font-size: 1.8rem;
+    font-size: 2rem;
     width: 90%;
     margin-left: 5%;
     border-radius: 5px
